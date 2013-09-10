@@ -7,11 +7,6 @@ Our hypothesis was the following:
 \end{quote}
 
 
-\begin{figure}
-\includegraphics[width=\columnwidth]{fig/task}
-\caption{\label{fig:task} An example of an identification task in the \emph{phrases} condition, for the relationship \code{amod(life, \_\_\_)}.}
-\end{figure}
-
 To test it, we presented participants with a series of identification tasks. In each task (Figure \ref{fig:task}), they were shown a list of sentences in which a particular grammatical relationship existed between two highlighted words. They were asked to identify which relationship it was from a list of four options.  Using a between-subjects design, we tested different strategies for presenting these options. Our goal was to see whether participants to whom we showed example usages identified the relationships more accurately than those to whom we did not.
 
 \subsection{Variables}
@@ -19,12 +14,15 @@ To test it, we presented participants with a series of identification tasks. In 
 \subsubsection{Presentation}
 
 \begin{figure}
+\subfigure[\label{fig:task} An example of an identification task in the \emph{phrases}.] {
+	\includegraphics[width=1.2\columnwidth]{fig/task}
+}
 \subfigure[The baseline condition]{
 	\includegraphics[width=0.5\columnwidth]{fig/baseline-choices}
     \label{fig:baseline-choices}
 }
 \subfigure[The matching-words condition]{
-	\includegraphics[width=0.3\columnwidth]{fig/words-choices}
+	\includegraphics[width=0.5\columnwidth]{fig/words-choices}
     \label{fig:words-choices}
 }
 \caption{\label{fig:choices} The way the choices appeared in the three experiment conditions, for the relationship \code{amod(life, \_\_\_)} (where different adjectives modify the noun `life')}
@@ -40,7 +38,14 @@ First, grammatical relationships are not all the same, they vary in how familiar
 
 Because of this variability, we had to test a number of different types grammatical relationships. We tested three categories of relationships:
 \begin{enumerate}
-	\item Common relations:
+\item Clausal or long-distance relations:
+	\begin{description}
+		\item[advcl] Adverbial clause: \emph{  she \textbf{said} it while \textbf{smiling}}
+		\item [xcomp] Open clausal complement:  \emph{I \textbf{learned} to \textbf{sing} }
+		\item [ccomp] Clausal complement:  \emph{ I \textbf{thought} that I \textbf{knew} it}
+		\item [rcmod] Relative clause modifier:  \emph{the \textbf{cat}, which we \textbf{rescued}, slept }
+	\end{description}
+\item Other relations:
 		\begin{description}
 			\item[nsubj] Subject of verb: \emph{\textbf{he} \textbf{threw} the ball}
 			\item [dobj] Object of verb:  \emph{ he \textbf{threw} the \textbf{ball}}
@@ -48,20 +53,9 @@ Because of this variability, we had to test a number of different types grammati
 			\item [prep\_in]  Preposition (in): \emph{ the \textbf{water} in the \textbf{bucket}}
 			\item [prep\_of]	Preposition (of):  \emph{ the \textbf{piece} of \textbf{cheese}}
 			\item [conj\_and]  Conjunction (and)  \emph{ \textbf{mind} and \textbf{body}}
-		\end{description}
-	\item Relations with distinctive or typical words
-		\begin{description}
 		\item[advmod] Adverbial modifier: \emph{  she \textbf{said} it \textbf{slowly}}
 		\item [nn] Noun compound:  \emph{ \textbf{Mr.}  \textbf{Brown}}
 		\end{description}
-	\item Clausal or long-distance relations:
-		\begin{description}
-			\item[advcl] Adverbial clause: \emph{  she \textbf{said} it while \textbf{smiling}}
-			\item [xcomp] Open clausal complement:  \emph{I \textbf{learned} to \textbf{sing} }
-			\item [ccomp] Clausal complement:  \emph{ I \textbf{thought} that I \textbf{knew} it}
-			\item [rcmod] Relative clause modifier:  \emph{the \textbf{cat}, which we \textbf{rescued}, slept }
-		\end{description}
-
 \end{enumerate}
 \subsubsection{Words}
 The second dimension of variability is that a relation links two words that have different functions. In the verb-subject relationship ``\emph{\textbf{he} \textbf{threw}}'', ``he'' is a noun and ``threw'' is a verb. When presenting a participant with a list of sentences containing the relationship, we therefore have several options: we could keep the relationship the same and vary the two words that are linked,  we could keep the relationship and one word the same, and vary the second, or we could keep all three the same.
@@ -117,8 +111,4 @@ The difference between the two types of examples,  \strong{phrases} and \strong{
 
 For the clausal relations, which operate over longer distances in sentences, the data confirmed what one might intuitively expect. Phrases, which show the usage context, significantly improved recognizability compared to the list of words or the baseline labels. The average success rate is 48\% for \strong{phrases}, which is significantly more than \strong{words}: 38\%, (p = 0.017), or \strong{baseline}: 24\%, ($p= 1.9 \times 10^9$).
 
-For the common relations, there was no real difference between \strong{phrases} and \strong{words}, although they were both still significantly better than the baseline (words: $p=0.033$, phrases: $p=0.027$).
-
-The distinctive-word relations were the opposite. These relations seem to be most recognizable when lists of words are shown instead of phrases. The average success rate in the \strong{words} case was 60\%, whereas the \strong{baseline} and \strong{phrases} cases were both 51\%. The differences, however, were suggestive, but not quite significant (words vs. baseline: $p= 0.071$, words vs. phrases: $p= 0.11$). However, we may not have had enough power to detect that difference: the other categories of relations had 4 or more relations each, but in the distinctive-words case, there were only 2 relations (adverb-modifier and noun-compound), giving us only half the data.
-
-We therefore decided to do a follow-up experiment to gather more data.
+For the other relations, there was no real difference between \strong{phrases} and \strong{words}, although they were both still significantly better than the baseline (words: $p=0.0063$, phrases: $p=0.023$).
