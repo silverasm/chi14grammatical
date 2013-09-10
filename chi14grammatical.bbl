@@ -1,0 +1,46 @@
+\begin{thebibliography}{1}
+
+\bibitem{culotta2005reducing}
+Culotta, A., and McCallum, A.
+\newblock Reducing labeling effort for structured prediction tasks.
+\newblock In {\em AAAI} (2005), 746--751.
+
+\bibitem{gibbs_building_2012}
+Gibbs, F., and Owens, T.
+\newblock Building better digital humanities tools.
+\newblock {\em DH Quarterly 6}, 2 (2012).
+
+\bibitem{hirschman2005overview}
+Hirschman, L., Yeh, A., Blaschke, C., and Valencia, A.
+\newblock Overview of biocreative: critical assessment of information
+  extraction for biology.
+\newblock {\em BMC bioinformatics 6}, Suppl 1 (2005), S1.
+
+\bibitem{kepser2003finite}
+Kepser, S.
+\newblock Finite structure query: A tool for querying syntactically annotated
+  corpora.
+\newblock In {\em EACL} (2003), 179--186.
+
+\bibitem{levy2006tregex}
+Levy, R., and Andrew, G.
+\newblock Tregex and tsurgeon: tools for querying and manipulating tree data
+  structures.
+\newblock In {\em Proceedings of the fifth international conference on Language
+  Resources and Evaluation} (2006), 2231--2234.
+
+\bibitem{maclean2013identifying}
+MacLean, D.~L., and Heer, J.
+\newblock Identifying medical terms in patient-authored text: a
+  crowdsourcing-based approach.
+\newblock {\em Journal of the American Medical Informatics Association\/}
+  (2013).
+
+\bibitem{soehn2008requirements}
+Soehn, J.-P., Zinsmeister, H., and Rehm, G.
+\newblock Requirements of a user-friendly, general-purpose corpus query
+  interface.
+\newblock {\em Sustainability of Language Resources and Tools for Natural
+  Language Processing 6\/} (2008), 27.
+
+\end{thebibliography}
