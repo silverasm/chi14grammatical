@@ -4,7 +4,7 @@
 
 Because trees are the traditional representation of a syntactic parse, some  tools that allow querying of  collections of syntactically parsed data focus on tree structures.   For instance, the Linguist's Search Engine \cite{resnik2005web} uses a query-by-example strategy in which a user types in an initial sentence in English, and the system produces a graphical view of a parse tree as output, in addition to a nested LISP expression of the same tree.  The user can either click on the tree or modify the LISP expression to generalize the query.    Similarly, the popular Stanford Parser includes Tregex, which as the name suggests,  allows for sophisticated regular expression search over syntactic tree structures, and Tsurgeon, which allows for manipulation of the trees extracted with Tregex \cite{levy2006tregex}.  Neither of these tools have been evaluated with usability studies.  The Finite Structure Query tool for querying syntactically annotated corpora requires its queries to be stated in first order logic \cite{kepser2003finite}. In the Corpus Query Language \cite{jakubicek2010fast}, a query is a pattern of attribute-value pairs.
 
-Another approach (discussion of XML, Sparql goes here.)
+Resource Description Framework (RDF) has become a popular way of storing structured data on the web. The standard query language for this type of data is SPARQL. These queries are SQL-like expressions that specify certain attribute-values and retrieve matches over other attributes by selecting, filtering, or aggregating over them.
 
 A final simple alternative approach is to simply name the relation of interest and show blanks where the words that satisfy the relation would appear; this is the baseline design tested below.
 
