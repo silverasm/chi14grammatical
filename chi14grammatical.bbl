@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{culotta2005reducing}
 Culotta, A., and McCallum, A.
@@ -10,11 +10,21 @@ Gibbs, F., and Owens, T.
 \newblock Building better digital humanities tools.
 \newblock {\em DH Quarterly 6}, 2 (2012).
 
+\bibitem{hearst2009search}
+Hearst, M.
+\newblock {\em Search user interfaces}.
+\newblock Cambridge University Press, 2009.
+
 \bibitem{hirschman2005overview}
 Hirschman, L., Yeh, A., Blaschke, C., and Valencia, A.
 \newblock Overview of biocreative: critical assessment of information
   extraction for biology.
 \newblock {\em BMC bioinformatics 6}, Suppl 1 (2005), S1.
+
+\bibitem{jakubicek2010fast}
+Jakubicek, M., Kilgarriff, A., McCarthy, D., and Rychl{\`y}, P.
+\newblock Fast syntactic searching in very large corpora for many languages.
+\newblock In {\em PACLIC}, vol.~24 (2010), 741--747.
 
 \bibitem{kepser2003finite}
 Kepser, S.
@@ -35,6 +45,19 @@ MacLean, D.~L., and Heer, J.
   crowdsourcing-based approach.
 \newblock {\em Journal of the American Medical Informatics Association\/}
   (2013).
+
+\bibitem{resnik2005web}
+Resnik, P., Elkiss, A., Lau, E., and Taylor, H.
+\newblock The web in theoretical linguistics research: Two case studies using
+  the linguist’s search engine.
+\newblock In {\em Proceedings of the 31st Meeting of the Berkeley Linguistics
+  Society} (2005), 265--276.
+
+\bibitem{shneiderman2010designing}
+Shneiderman, B., and Plaisant, C.
+\newblock {\em Designing The User Interface: Strategies for Effective
+  Human-Computer Interaction, 5/e (Fifth Edition)}.
+\newblock Addison Wesley, 2010.
 
 \bibitem{soehn2008requirements}
 Soehn, J.-P., Zinsmeister, H., and Rehm, G.
