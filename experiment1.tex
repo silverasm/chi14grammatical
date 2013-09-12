@@ -17,17 +17,18 @@ The \strong{words} presentation showed the baseline design, and in addition bene
 
 We used a between-subjects design. The task order and the choice order were not varied: the only variation between participants was the presentation of the choices. To avoid the possibility of participants guessing the right answer by pattern-matching, we ensured that there was no overlap between the list of sentences shown, and the examples shown in the choices as words or phrases. Not every relationship shown in the distractors was tested, and distractors were chosen to be ones intuitively most likely to be mistaken for  the relationship shown.
 
-The tasks were generated using the Stanford Dependency Parser \cite{de2006generating} on the text of \emph{Moby Dick} by Herman Melville.  We tested the 12 most common grammatical relationships in the novel, which fell into two categories:.
+The tasks were generated using the Stanford Dependency Parser \cite{de2006generating} on the text of \emph{Moby Dick} by Herman Melville. We tested the 12 most common grammatical relationships in the novel in order to cover the most content and to be able to provide as many real examples as possible. These relationships fell into two categories:.
 
-\squishlist
-\item Clausal or long-distance relations:
+
+Clausal or long-distance relations:
 	\squishlist
 		\item \strong{advcl} Adverbial clause: \emph{ I \textbf{walk} while \textbf{talking}}
 		\item  \strong{xcomp} Open clausal complement:  \emph{I \textbf{love} to \textbf{sing} }
 		\item  \strong{ccomp} Clausal complement:  \emph{ he \textbf{saw} us \textbf{leave}}
 		\item  \strong{rcmod} Relative clause modifier:  \emph{the \textbf{letter} I \textbf{wrote} reached }
 	\squishend
-\item Other relations:
+
+Other relations:
 		\squishlist
 			\item \strong{nsubj} Subject of verb: \emph{\textbf{he} \textbf{threw} the ball}
 			\item \strong{dobj} Object of verb:  \emph{ he \textbf{threw} the \textbf{ball}}
@@ -37,8 +38,7 @@ The tasks were generated using the Stanford Dependency Parser \cite{de2006genera
 			\item \strong{conj\_and}  Conjunction (and)  \emph{ \textbf{mind} and \textbf{body}}
 		\item\strong{advmod} Adverbial modifier: \emph{  we \textbf{walk} \textbf{slowly}}
 		\item \strong{nn} Noun compound:  \emph{ \textbf{Mr.}  \textbf{Brown}}
-		\squishend
-\squishend
+	\squishend
 
 We tested each of the above relations 4 times, with 2 different focus words in each role. For example, the verb-subject relation \code{nsubj} was tested in the following forms:
 \squishlist
@@ -52,7 +52,7 @@ We tested each of the above relations 4 times, with 2 different focus words in e
 To maximize coverage, yet keep the total task time reasonable (average 6.8 minutes), we divided the relations above into 4 task sets of 3 relations each. Each relation was tested with 4 different words, making a total of 12 tasks per participant.
 
 \subsection{Participants}
-We chose Amazon's Mechanical Turk (MTurk) crowdsourcing platform as a source of study participants. The wide range of backgrounds provided by MTurk is desirable because our goal is to find a representation that is understandable to most people, not just linguistic experts. Participants were paid 50c (U.S.) for completing the task, with an additional 50c bonus if they correctly identified 10 or more of the 12 relationships. They were informed of the possibility of the bonus before starting the task.
+Participants were paid 50c (U.S.) for completing the task, with an additional 50c bonus if they correctly identified 10 or more of the 12 relationships. They were informed of the possibility of the bonus before starting the task.
 
 To help ensure the quality of effort from participants, we included a multiple-choice screening question, `What is the third word of this sentence?"  Those that answered incorrectly were eliminated. 400 participants completed the study distributed randomly over the 4 task sets and the 3 presentations. To gauge their syntactic familiarity, we also asked them to rate how familiar they were with the terms `adjective' (88\% could define it), `infinitive' (43\%), and `clausal complement' (18\%).
 
@@ -60,13 +60,14 @@ To help ensure the quality of effort from participants, we included a multiple-c
 \begin{figure}
 \centering
 \includegraphics[width=\columnwidth]{fig/results}
-\caption{\label{fig:results}Recognition rates for different types of relations under the 3 experiment conditions.}
+\caption{\label{fig:results} Recognition rates for different types of relations under the 3 experiment conditions, with 95\% confidence intervals.}
 \end{figure}
-The results (Figure \ref{fig:results}) confirm H1. Participants in conditions that showed examples (\strong{phrases} and \strong{words}) were significantly more accurate at identifying the relations than participants in the \strong{baseline} condition.  The average success rate in the \strong{baseline} condition was $41\%$, which is significantly\footnote{Using the Wilcoxson signed-rank test, an alternative to the standard T-test that does not assume samples are normally distributed.} less accurate than \strong{words}: $52\%, (p = 0.00019)$, and \strong{phrases}: $55\%, (p = 0.00013)$.
 
- 
+The results (Figure \ref{fig:results}) confirm H1. Participants in conditions that showed examples (\strong{phrases} and \strong{words}) were significantly more accurate at identifying the relations than participants in the \strong{baseline} condition. We used the Wilcoxson signed-rank test, an alternative to the standard T-test that does not assume samples are normally distributed. The average success rate in the \strong{baseline} condition was $41\%$, which is significantly less accurate than \strong{words}: $52\%, (p = 0.00019, z =5.7\sigma)$, and \strong{phrases}: $55\%, (p = 0.00013, z=6.6\sigma)$.
+
+
 Clausal relations operate over longer distances in sentences, and so it is to be expected that showing longer stretches of context would perform better in these cases; that is indeed what the results showed.
-Phrases significantly performed better than words and baseline. The average success rate is 48\% for \strong{phrases}, which is significantly more than \strong{words}: 38\%, (p = 0.017), and \strong{baseline}: 24\%, ($p= 1.9 \times 10^-9$).
+Phrases significantly outperformed words and baseline. The average success rate was 48\% for \strong{phrases}, which is significantly more than \strong{words}: 38\%, (p = 0.017) and \strong{baseline}: 24\%, ($p= 1.9 \times 10^-9$), which was indistinguishable from random guessing (25\%). This is surprisingly strong performance given that only 18\% of participants reported being able to define  `clausal complement'.
 
-For the non-clausal relations, there was no significant difference between \strong{phrases} and \strong{words}, although they were both overall significantly better than the baseline (words: $p=0.0063$, phrases: $p=0.023$). Among these relations, adverb modifiers (\code{advmod}) stood out (Figure \ref{fig:results}), because evidence suggested that \strong{words} (0.63\% success) made the relation more recognizable than \strong{phrases} (0.47\% success, $p = 0.055$) -- but the difference was only almost significant, due to the smaller sample size (only 96 participants encountered this relation). This may be because the words are the most salient piece of information in an adverbial relation -- adverbs usually end in `ly' -- and in the phrases condition the additional information distracts from recognition of this pattern.
+For the non-clausal relations, there was no significant difference between \strong{phrases} and \strong{words}, although they were both overall significantly better than the baseline (words: $p=0.0063$, phrases: $p=0.023$). Among these relations, adverb modifiers (\code{advmod}) stood out (Figure \ref{fig:results}), because evidence suggested that \strong{words} (63\% success) made the relation more recognizable than \strong{phrases} (47\% success, $p = 0.055$) -- but the difference was only almost significant, due to the smaller sample size (only 96 participants encountered this relation). This may be because the words are the most salient piece of information in an adverbial relation -- adverbs usually end in `ly' -- and in the phrases condition the additional information distracts from recognition of this pattern.
 
