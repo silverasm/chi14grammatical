@@ -11,11 +11,11 @@ Our hypothesis was:
 To test H1, participants were given a series of identification tasks. In each task, they were shown a list of 8 sentences, each containing a particular relationship between highlighted words. They were asked to identify the relationship from a list of 4 choices.  Additionally, one word was chosen as a \emph{focus word} that was present in all the sentences, to make the relationship more recognizable (``life'' in Figure~\ref{fig:choices}).
 
 The choices were displayed in 3 different ways (Figure \ref{fig:choices}).  The \strong{baseline} presentation
-(Figure \ref{fig:baseline-choices}) named the linguistic relation and showed a blank space with a peach background for the varying word in the relationship, the focus word highlighted in yellow and underlined, and any necessary additional words necessary to convey the relationship (such as ``of" for the prepositional relationship containing ``of",  the third option).
+(Figure \ref{fig:baseline-choices}) named the linguistic relation and showed a blank space with a peach-colored background for the varying word in the relationship, the focus word highlighted in yellow and underlined, and any necessary additional words necessary to convey the relationship (such as ``of" for the prepositional relationship containing ``of",  the third option).
 
 The \strong{words} presentation showed the baseline design, and in addition beneath it showed the word ``Examples:'' followed by a list of 4 example words that could fill in the peach-colored blank slot (Figure \ref{fig:words-choices}).   The \strong{phrases} presentation again showed the baseline design, beneath which was shown the phrase ``Patterns like:'' and a list of 4 example phrases in which fragments of text including both the peach and the yellow highlighted portions of the  relationship appeared (Figure \ref{fig:task}).
 
-We used a between-subjects design. The task order and the choice order were not varied: the only variation between participants was the presentation of the choices. To avoid the possibility of participants guessing the right answer by pattern-matching, we ensured that there was no overlap between the list of sentences shown, and the examples shown in the choices as words or phrases. Not every relationship shown in the distractors was tested, and distractors were chosen to be ones intuitively most likely to be mistaken for  the relationship shown.
+We used a between-subjects design. The task order and the choice order were not varied: the only variation between participants was the presentation of the design. To avoid the possibility of participants guessing the right answer by pattern-matching, we ensured that there was no overlap between the list of sentences shown, and the examples shown in the choices as words or phrases. Not every relationship shown in the distractors was tested, and distractors were chosen to be ones intuitively most likely to be mistaken for  the relationship shown.
 
 The tasks were generated using the Stanford Dependency Parser \cite{de2006generating} on the text of \emph{Moby Dick} by Herman Melville. We tested the 12 most common grammatical relationships in the novel in order to cover the most content and to be able to provide as many real examples as possible. These relationships fell into two categories:.
 
@@ -40,7 +40,7 @@ Other relations:
 		\item \strong{nn} Noun compound:  \emph{ \textbf{Mr.}  \textbf{Brown}}
 	\squishend
 
-We tested each of the above relations 4 times, with 2 different focus words in each role. For example, the verb-subject relation \code{nsubj} was tested in the following forms:
+We tested each of these relations 4 times, with 2 different focus words in each role. For example, the verb-subject relation \code{nsubj} was tested in the following forms:
 \squishlist
 	\item \code{nsubj(Ahab, \_\_\_)}:  the sentences each contained `Ahab', highlighted in yellow, as the subject of different verbs highlighted in peach.
 	\item \code{nsubj(captain, \_\_\_)}
@@ -52,9 +52,9 @@ We tested each of the above relations 4 times, with 2 different focus words in e
 To maximize coverage, yet keep the total task time reasonable (average 6.8 minutes), we divided the relations above into 4 task sets of 3 relations each. Each relation was tested with 4 different words, making a total of 12 tasks per participant.
 
 \subsection{Participants}
-Participants were paid 50c (U.S.) for completing the task, with an additional 50c bonus if they correctly identified 10 or more of the 12 relationships. They were informed of the possibility of the bonus before starting the task.
+Participants were paid 50c (U.S.) for completing the study, with an additional 50c bonus if they correctly identified 10 or more of the 12 relationships. They were informed of the possibility of the bonus before starting.
 
-To help ensure the quality of effort from participants, we included a multiple-choice screening question, `What is the third word of this sentence?"  Those that answered incorrectly were eliminated. 400 participants completed the study distributed randomly over the 4 task sets and the 3 presentations. To gauge their syntactic familiarity, we also asked them to rate how familiar they were with the terms `adjective' (88\% could define it), `infinitive' (43\%), and `clausal complement' (18\%).
+To help ensure the quality of effort from participants, we included a multiple-choice screening question, `What is the third word of this sentence?"  Those that answered incorrectly were eliminated. 400 participants completed the study distributed randomly over the 4 task sets and the 3 presentations. To gauge their syntactic familiarity, we also asked them to rate how familiar they were with the terms `adjective' (88\% claimed they could define it), `infinitive' (43\%), and `clausal complement' (18\%).
 
 \subsection{Results}
 \begin{figure}
@@ -67,7 +67,7 @@ The results (Figure \ref{fig:results}) confirm H1. Participants in conditions th
 
 
 Clausal relations operate over longer distances in sentences, and so it is to be expected that showing longer stretches of context would perform better in these cases; that is indeed what the results showed.
-Phrases significantly outperformed words and baseline. The average success rate was 48\% for \strong{phrases}, which is significantly more than \strong{words}: 38\%, (p = 0.017) and \strong{baseline}: 24\%, ($p= 1.9 \times 10^-9$), which was indistinguishable from random guessing (25\%). This is a surprisingly strong improvement, given that only 18\% of participants reported being able to define  `clausal complement'.
+Phrases significantly outperformed words and baseline for clausal relations. The average success rate was 48\% for \strong{phrases}, which is significantly more than \strong{words}: 38\%, (p = 0.017) and \strong{baseline}: 24\%, ($p= 1.9 \times 10^-9$), which was indistinguishable from random guessing (25\%). This is a  strong improvement, given that only 18\% of participants reported being able to define  `clausal complement'.
 
 For the non-clausal relations, there was no significant difference between \strong{phrases} and \strong{words}, although they were both overall significantly better than the baseline (words: $p=0.0063$, phrases: $p=0.023$). Among these relations, adverb modifiers (\code{advmod}) stood out (Figure \ref{fig:results}), because evidence suggested that \strong{words} (63\% success) made the relation more recognizable than \strong{phrases} (47\% success, $p = 0.055$) -- but the difference was only almost significant, due to the smaller sample size (only 96 participants encountered this relation). This may be because the words are the most salient piece of information in an adverbial relation -- adverbs usually end in `ly' -- and in the phrases condition the additional information distracts from recognition of this pattern.
 
