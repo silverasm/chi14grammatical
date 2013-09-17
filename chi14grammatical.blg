@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2010)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: chi14grammatical.aux
+The style file: acm-sigchi.bst
+Database file #1: papers.bib
+You've used 14 entries,
+            2243 wiz_defined-function locations,
+            605 strings with 6279 characters,
+and the built_in function-call counts, 5008 in all, are:
+= -- 495
+> -- 208
+< -- 0
++ -- 87
+- -- 72
+* -- 331
+:= -- 778
+add.period$ -- 42
+call.type$ -- 14
+change.case$ -- 75
+chr.to.int$ -- 0
+cite$ -- 14
+duplicate$ -- 216
+empty$ -- 422
+format.name$ -- 72
+if$ -- 1093
+int.to.chr$ -- 0
+int.to.str$ -- 14
+missing$ -- 16
+newline$ -- 73
+num.names$ -- 28
+pop$ -- 97
+preamble$ -- 1
+purify$ -- 63
+quote$ -- 0
+skip$ -- 162
+stack$ -- 0
+substring$ -- 309
+swap$ -- 64
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 52
+warning$ -- 0
+while$ -- 52
+width$ -- 16
+write$ -- 142
