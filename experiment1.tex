@@ -1,5 +1,29 @@
 %!TEX root = chi14grammatical.tex
 
+\begin{figure*}[th]
+\begin{subfigure}{0.5\columnwidth}
+		\begin{subfigure}{\columnwidth}
+				\centering
+		\fbox{\includegraphics[width=\columnwidth]{fig/baseline-choices}}
+	    \caption {The options as they appear in the \emph{baseline} condition. \label{fig:baseline-choices}}
+	    \end{subfigure}
+
+	    \begin{subfigure}{\columnwidth}
+	    	\centering
+	    	\fbox{\includegraphics[width=\columnwidth]{fig/words-choices}}
+	        \caption {The same options as they appear in the \emph{words} condition. \label{fig:words-choices}}
+	    \end{subfigure}
+\end{subfigure}
+\quad
+\begin{subfigure} {1.5\columnwidth}
+			\centering
+	\fbox{\includegraphics[width=\columnwidth]{fig/task}}
+	\caption{\label{fig:task} The same options in the \emph{phrases} condition, shown as they appeared in an identification task for the relationship \code{amod(life, \_\_\_)} (where different adjectives modify the noun `life'). The correct answer is `adjective modifier' (4th option), and the remaining 3 options are distractors.}
+	\end{subfigure}
+
+\caption{\label{fig:choices} The appearance of the choices shown in the three experiment conditions.}
+\end{figure*}
+
 Our hypothesis was:
 \begin{quote}
 	Grammatical relations are identified more accurately when shown with examples of contextualizing words or phrases than without.
@@ -12,7 +36,7 @@ The choices were displayed in 3 different ways (Figure \ref{fig:choices}).  The 
 
 The \strong{words} presentation showed the baseline design, and in addition beneath was the word ``Examples:'' followed by a list of 4 example words that could fill in the pink blank slot (Figure \ref{fig:words-choices}).   The \strong{phrases} presentation again showed the baseline design, beneath which was the phrase ``Patterns like:'' and a list of 4 example phrases in which fragments of text including both the pink and the yellow highlighted portions of the  relationship appeared (Figure \ref{fig:task}).
 
-We used a between-subjects design. The task order and the choice order were not varied: the only variation between participants was the presentation of the choices. To avoid the possibility of  guessing the right answer by pattern-matching, we ensured that there was no overlap between the list of sentences shown, and the examples shown in the choices as words or phrases. Not every relationship shown in the distractors was tested, and distractors were chosen to be ones intuitively most likely to be mistaken for  the relationship shown.
+We used a between-subjects design. The task order and the choice order were not varied: the only variation between participants was the presentation of the choices. To avoid the possibility of  guessing the right answer by pattern-matching, we ensured that there was no overlap between the list of sentences shown, and the examples shown in the choices as words or phrases.
 
 The tasks were generated using the Stanford Dependency Parser \cite{de2006generating} on the text of \emph{Moby Dick} by Herman Melville. We tested the 12 most common grammatical relationships in the novel in order to cover the most content and to be able to provide as many real examples as possible. These relationships fell into two categories, listed below with examples.
 
@@ -27,6 +51,7 @@ The tasks were generated using the Stanford Dependency Parser \cite{de2006genera
 % \strong{rcmod} & Relative clause modifier &  \emph{the \textbf{letter} I \textbf{wrote} reached }\\
 
 % \end{tabular}
+
 
 % Other relations:
 % \begin{table}
@@ -68,7 +93,7 @@ Non-clausal relations:
 	\item Noun compound:  \emph{ \textbf{Mr.}  \textbf{Brown}}
 \squishend
 
-We tested each of these relations 4 times, with 2 different focus words in each role. For example, the \emph{Subject of Verb} relation  was tested in the following forms:
+We tested each of these 12 relations with 4 different focus words, 2 in each role. For example, the \emph{Subject of Verb} relation  was tested in the following forms:
 \squishlist
 	\item \code{(Ahab, \_\_\_)}:  the sentences each contained `Ahab', highlighted in yellow, as the subject of different verbs highlighted in pink.
 	\item \code{(captain, \_\_\_)}
@@ -77,7 +102,7 @@ We tested each of these relations 4 times, with 2 different focus words in each 
 	\item \code{(\_\_\_, stood)}
 \squishend
 
-To maximize coverage, yet keep the total task time reasonable (average 6.8 minutes), we divided the relations above into 4 task sets of 3 relations each. Each relation was tested with 4 different words, making a total of 12 tasks per participant.
+To maximize coverage, yet keep the total task time reasonable (average 6.8 minutes), we divided the relations above into 4 task sets, each testing recognition of 3 different relations. Each of relations was tested with 4 different words, making a total of 12 tasks per participant.
 
 \subsection{Participants}
 400 participants completed the study distributed randomly over the 4 task sets and the 3 presentations. Participants were paid 50c (U.S.) for completing the study, with an additional 50c bonus if they correctly identified 10 or more of the 12 relationships. They were informed of the possibility of the bonus before starting.
@@ -92,7 +117,6 @@ To maximize coverage, yet keep the total task time reasonable (average 6.8 minut
 \end{figure}
 
 The results (Figure \ref{fig:results}) confirm our hypothesis. Participants in conditions that showed examples (\strong{phrases} and \strong{words}) were significantly more accurate at identifying the relations than participants in the \strong{baseline} condition. We used the Wilcoxson signed-rank test, an alternative to the standard T-test that does not assume samples are normally distributed. The average success rate in the \strong{baseline} condition was 41\%, which is significantly less accurate than \strong{words}: 52\%, (p=0.00019, W=6136), and \strong{phrases}: 55\%, (p=0.00014, W=5546.5).
-
 
 Clausal relations operate over longer distances in sentences, and so it is to be expected that showing longer stretches of context would perform better in these cases; that is indeed what the results showed.
 Phrases significantly outperformed words and baseline for clausal relations. The average success rate was 48\% for \strong{phrases}, which is significantly more than \strong{words}: 38\%, (p=0.017 W=6976.5) and \strong{baseline}: 24\%, (p=1.9$\times 10^{-9}$ W=4399.0), which was indistinguishable from random guessing (25\%). This is a  strong improvement, given that only 18\% of participants reported being able to define  `clausal complement'.

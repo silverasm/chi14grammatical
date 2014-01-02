@@ -3,44 +3,44 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: chi14grammatical.aux
 The style file: acl2014.bst
 Database file #1: papers.bib
-You've used 17 entries,
+You've used 11 entries,
             2490 wiz_defined-function locations,
-            651 strings with 7414 characters,
-and the built_in function-call counts, 7527 in all, are:
-= -- 794
-> -- 274
-< -- 10
-+ -- 91
-- -- 90
-* -- 540
-:= -- 1161
-add.period$ -- 68
-call.type$ -- 17
-change.case$ -- 110
-chr.to.int$ -- 17
-cite$ -- 17
-duplicate$ -- 341
-empty$ -- 579
-format.name$ -- 115
-if$ -- 1610
+            619 strings with 6284 characters,
+and the built_in function-call counts, 4854 in all, are:
+= -- 512
+> -- 166
+< -- 7
++ -- 54
+- -- 54
+* -- 337
+:= -- 745
+add.period$ -- 44
+call.type$ -- 11
+change.case$ -- 69
+chr.to.int$ -- 11
+cite$ -- 11
+duplicate$ -- 226
+empty$ -- 380
+format.name$ -- 70
+if$ -- 1047
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 19
-newline$ -- 105
-num.names$ -- 51
-pop$ -- 124
+missing$ -- 12
+newline$ -- 69
+num.names$ -- 33
+pop$ -- 79
 preamble$ -- 1
-purify$ -- 129
+purify$ -- 81
 quote$ -- 0
-skip$ -- 288
+skip$ -- 195
 stack$ -- 0
-substring$ -- 400
-swap$ -- 109
-text.length$ -- 10
+substring$ -- 260
+swap$ -- 76
+text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 128
+type$ -- 84
 warning$ -- 0
-while$ -- 65
-width$ -- 23
-write$ -- 240
+while$ -- 41
+width$ -- 15
+write$ -- 156
