@@ -1,4 +1,7 @@
-\documentclass{sigchi}
+\documentclass[11pt]{article}
+\usepackage{acl2014}
+\usepackage{times}
+\usepackage{latexsym}
 \usepackage{caption, subcaption, graphicx, url}
 
 \newcommand{\strong}[1] {\textbf{#1}}
@@ -19,20 +22,20 @@
 \newcommand{\squishend}{
   \end{list}  }
 
-\begin{document}
-\title{Displaying Auto-Suggest Options for Syntactic Search}
-\numberofauthors{2}
-\author{
-  \alignauthor 1st Author Name\\
-    \affaddr{Affiliation}\\
-    \affaddr{Address}\\
-    \email{e-mail address}
-  \alignauthor 2nd Author Name\\
-    \affaddr{Affiliation}\\
-    \affaddr{Address}\\
-    \email{e-mail address}
-}
+\title{Improving the Recognizability of Syntactic Relations for Information Retrieval Interfaces}
+%\numberofauthors{2}
+\author{First Author \\
+  Affiliation / Address line 1 \\
+  Affiliation / Address line 2 \\
+  Affiliation / Address line 3 \\
+  {\tt email@domain} \\\And
+  Second Author \\
+  Affiliation / Address line 1 \\
+  Affiliation / Address line 2 \\
+  Affiliation / Address line 3 \\
+  {\tt email@domain} \\}
 
+\begin{document}
 
 \maketitle
 
@@ -40,9 +43,9 @@
 \input{abstract}
 \end{abstract}
 
-\keywords{Search, Syntax, Grammatical Queries, Digital Humanities, Information Extraction}
+% \keywords{Search, Syntax, Grammatical Queries, Digital Humanities, Information Extraction}
 
-\category{H.5.m.}{Information Interfaces and Presentation (e.g. HCI)}{Miscellaneous}
+% \category{H.5.m.}{Information Interfaces and Presentation (e.g. HCI)}{Miscellaneous}
 
 \section{Introduction}
 \input{introduction}
@@ -54,7 +57,7 @@
 \section{Discussion}
 \input{discussion}
 
-\bibliographystyle{acm-sigchi}
+\bibliographystyle{acl2014}
 \bibliography{papers}
 
 \end{document}

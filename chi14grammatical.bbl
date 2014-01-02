@@ -1,84 +1,125 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{}
 
-\bibitem{androutsopoulos1995natural}
-Androutsopoulos, I., Ritchie, G., and Thanisch, P.
+\bibitem[\protect\citename{Androutsopoulos \bgroup et al.\egroup
+  }1995]{androutsopoulos1995natural}
+I~Androutsopoulos, GD~Ritchie, and P~Thanisch.
+\newblock 1995.
 \newblock Natural language interfaces to databases--an introduction.
-\newblock {\em Natural Language Engineering 1}, 01 (1995), 29--81.
+\newblock {\em Natural Language Engineering}, 1(01):29--81.
 
-\bibitem{muralidharan2013supporting_anon}
-Anonymous, A., and Anonymous, B.
+\bibitem[\protect\citename{Anonymous and
+  Anonymous}2013]{muralidharan2013supporting_anon}
+A~Anonymous and B~Anonymous.
+\newblock 2013.
 \newblock Anonymized for submission.
-\newblock {\em --- --}, -- (2013), --.
+\newblock {\em ---}, --(--):--.
 
-\bibitem{culotta2005reducing}
-Culotta, A., and McCallum, A.
+\bibitem[\protect\citename{Culotta and McCallum}2005]{culotta2005reducing}
+Aron Culotta and Andrew McCallum.
+\newblock 2005.
 \newblock Reducing labeling effort for structured prediction tasks.
-\newblock In {\em AAAI} (2005), 746--751.
+\newblock In {\em AAAI}, pages 746--751.
 
-\bibitem{de2006generating}
-De~Marneffe, M.-C., MacCartney, B., Manning, C.~D., et~al.
+\bibitem[\protect\citename{De~Marneffe \bgroup et al.\egroup
+  }2006]{de2006generating}
+Marie-Catherine De~Marneffe, Bill MacCartney, Christopher~D Manning, et~al.
+\newblock 2006.
 \newblock Generating typed dependency parses from phrase structure parses.
-\newblock In {\em Proceedings of LREC}, vol.~6 (2006), 449--454.
+\newblock In {\em Proceedings of LREC}, volume~6, pages 449--454.
 
-\bibitem{gibbs_building_2012}
-Gibbs, F., and Owens, T.
+\bibitem[\protect\citename{Gibbs and Owens}2012]{gibbs_building_2012}
+Fred Gibbs and Trevor Owens.
+\newblock 2012.
 \newblock Building better digital humanities tools.
-\newblock {\em DH Quarterly 6}, 2 (2012).
+\newblock {\em DH Quarterly}, 6(2).
 
-\bibitem{hearst2009search}
-Hearst, M.
+\bibitem[\protect\citename{Hearst}2009]{hearst2009search}
+Marti Hearst.
+\newblock 2009.
 \newblock {\em Search user interfaces}.
-\newblock Cambridge University Press, 2009.
+\newblock Cambridge University Press.
 
-\bibitem{hirschman2005overview}
-Hirschman, L., Yeh, A., Blaschke, C., and Valencia, A.
+\bibitem[\protect\citename{Hirschman \bgroup et al.\egroup
+  }2005]{hirschman2005overview}
+Lynette Hirschman, Alexander Yeh, Christian Blaschke, and Alfonso Valencia.
+\newblock 2005.
 \newblock Overview of biocreative: critical assessment of information
   extraction for biology.
-\newblock {\em BMC bioinformatics 6}, Suppl 1 (2005), S1.
+\newblock {\em BMC bioinformatics}, 6(Suppl 1):S1.
 
-\bibitem{jakubicek2010fast}
-Jakubicek, M., Kilgarriff, A., McCarthy, D., and Rychl{\`y}, P.
+\bibitem[\protect\citename{Jakubicek \bgroup et al.\egroup
+  }2010]{jakubicek2010fast}
+Milos Jakubicek, Adam Kilgarriff, Diana McCarthy, and Pavel Rychl{\`y}.
+\newblock 2010.
 \newblock Fast syntactic searching in very large corpora for many languages.
-\newblock In {\em PACLIC}, vol.~24 (2010), 741--747.
+\newblock In {\em PACLIC}, volume~24, pages 741--747.
 
-\bibitem{kepser2003finite}
-Kepser, S.
+\bibitem[\protect\citename{Kepser}2003]{kepser2003finite}
+Stephan Kepser.
+\newblock 2003.
 \newblock Finite structure query: A tool for querying syntactically annotated
   corpora.
-\newblock In {\em EACL} (2003), 179--186.
+\newblock In {\em EACL}, pages 179--186.
 
-\bibitem{levy2006tregex}
-Levy, R., and Andrew, G.
+\bibitem[\protect\citename{Klein and Manning}2003]{klein_accurate_2003}
+Dan Klein and Christopher~D Manning.
+\newblock 2003.
+\newblock Accurate unlexicalized parsing.
+\newblock In {\em Proc. ACL '03}, volume~1, pages 423--430.
+
+\bibitem[\protect\citename{Lai and Bird}2010]{lai2010querying}
+Catherine Lai and Steven Bird.
+\newblock 2010.
+\newblock Querying linguistic trees.
+\newblock {\em Journal of Logic, Language and Information}, 19(1):53--73.
+
+\bibitem[\protect\citename{Levy and Andrew}2006]{levy2006tregex}
+Roger Levy and Galen Andrew.
+\newblock 2006.
 \newblock Tregex and tsurgeon: tools for querying and manipulating tree data
   structures.
-\newblock In {\em Proc. 5th Conference on Language Resources and Evaluation}
-  (2006), 2231--2234.
+\newblock In {\em Proc. 5th Conference on Language Resources and Evaluation},
+  pages 2231--2234.
 
-\bibitem{maclean2013identifying}
-MacLean, D.~L., and Heer, J.
+\bibitem[\protect\citename{MacLean and Heer}2013]{maclean2013identifying}
+Diana~Lynn MacLean and Jeffrey Heer.
+\newblock 2013.
 \newblock Identifying medical terms in patient-authored text: a
   crowdsourcing-based approach.
-\newblock {\em Journal of the American Medical Informatics Association\/}
-  (2013).
+\newblock {\em Journal of the American Medical Informatics Association}.
 
-\bibitem{resnik2005web}
-Resnik, P., Elkiss, A., Lau, E., and Taylor, H.
+\bibitem[\protect\citename{Rehm \bgroup et al.\egroup
+  }2009]{rehm2009sustainability}
+Georg Rehm, Oliver Schonefeld, Andreas Witt, Erhard Hinrichs, and Marga Reis.
+\newblock 2009.
+\newblock Sustainability of annotated resources in linguistics: A web-platform
+  for exploring, querying, and distributing linguistic corpora and other
+  resources.
+\newblock {\em Literary and Linguistic Computing}, 24(2):193--210.
+
+\bibitem[\protect\citename{Resnik \bgroup et al.\egroup }2005]{resnik2005web}
+Philip Resnik, Aaron Elkiss, Ellen Lau, and Heather Taylor.
+\newblock 2005.
 \newblock The web in theoretical linguistics research: Two case studies using
   the linguist’s search engine.
-\newblock In {\em Proc. 31st Mtg. Berkeley Linguistics Society} (2005),
+\newblock In {\em Proc. 31st Mtg. Berkeley Linguistics Society}, pages
   265--276.
 
-\bibitem{shneiderman2010designing}
-Shneiderman, B., and Plaisant, C.
+\bibitem[\protect\citename{Shneiderman and
+  Plaisant}2010]{shneiderman2010designing}
+Ben Shneiderman and Catherine Plaisant.
+\newblock 2010.
 \newblock {\em Designing The User Interface: Strategies for Effective
   Human-Computer Interaction, 5/e (Fifth Edition)}.
-\newblock Addison Wesley, 2010.
+\newblock Addison Wesley.
 
-\bibitem{soehn2008requirements}
-Soehn, J.-P., Zinsmeister, H., and Rehm, G.
+\bibitem[\protect\citename{Soehn \bgroup et al.\egroup
+  }2008]{soehn2008requirements}
+Jan-Philipp Soehn, Heike Zinsmeister, and Georg Rehm.
+\newblock 2008.
 \newblock Requirements of a user-friendly, general-purpose corpus query
   interface.
 \newblock {\em Sustainability of Language Resources and Tools for Natural
-  Language Processing 6\/} (2008), 27.
+  Language Processing}, 6:27.
 
 \end{thebibliography}

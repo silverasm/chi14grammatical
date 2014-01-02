@@ -1,0 +1,341 @@
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.7.21)  2 JAN 2014 13:09
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**chi14grammatical.tex
+(./chi14grammatical.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2009-06-19, ngerman-x-2009-06-19, ancientgreek, ibycus, arabic, armenian
+, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danish, dutch, u
+kenglish, usenglishmax, esperanto, estonian, farsi, finnish, french, galician, 
+german, ngerman, swissgerman, monogreek, greek, hungarian, icelandic, assamese,
+ bengali, gujarati, hindi, kannada, malayalam, marathi, oriya, panjabi, tamil, 
+telugu, indonesian, interlingua, irish, italian, kurmanji, lao, latin, latvian,
+ lithuanian, mongolian, mongolianlmc, bokmal, nynorsk, polish, portuguese, roma
+nian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, turkish,
+ turkmen, ukrainian, uppersorbian, welsh, loaded.
+(/usr/local/texlive/2010/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2010/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (./acl2014.sty
+Conference Style for ACL 2014 -- released October 2, 2013
+\titlebox=\skip43
+) (/usr/local/texlive/2010/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/base/latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2010/01/09 v3.1m Customizing captions (AR)
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2010/01/14 v3.1m caption3 kernel (AR)
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+\captionmargin=\dimen103
+\captionmargin@=\dimen104
+\captionwidth=\dimen105
+\caption@indent=\dimen106
+\caption@parindent=\dimen107
+\caption@hangindent=\dimen108
+)
+\c@ContinuedFloat=\count87
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2008/08/31 v1.0b Adding subcaptions (AR)
+\c@subfigure=\count88
+\c@subtable=\count89
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2010/02/14 v0.04n Graphics/color for pdfTeX
+\Gread@gobject=\count90
+))
+\Gin@req@height=\dimen109
+\Gin@req@width=\dimen110
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+(./chi14grammatical.aux)
+\openout1 = `chi14grammatical.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 38.
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+
+(/usr/local/texlive/2010/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count91
+\scratchdimen=\dimen111
+\scratchbox=\box26
+\nofMPsegments=\count92
+\nofMParguments=\count93
+\everyMPshowfont=\toks15
+\MPscratchCnt=\count94
+\MPscratchDim=\dimen112
+\MPnumerator=\count95
+\everyMPtoPDFconversion=\toks16
+) (/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2010/04/01 v0.9 Utility functions of pdfTeX for LuaTeX (HO)
+
+
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+)
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2010/04/26 v1.7 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2007/09/30 v1.0 Managing graphics extensions (HO)
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2010/02/22 v3.7 Keyval support for LaTeX options (HO)
+
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2010/03/01 v1.9 Key value parser (HO)
+
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2010/01/28 v1.3 Prefix for e-TeX command names (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 436.
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 40.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 40.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 40.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 40.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 40.
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 40.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 40.
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+) (./abstract.tex)
+Underfull \hbox (badness 1189) in paragraph at lines 3--44
+\OT1/ptm/m/n/10.95 are scarce. In-ter-faces for non-experts
+ []
+
+
+Underfull \hbox (badness 1067) in paragraph at lines 3--44
+\OT1/ptm/m/n/10.95 syn-tac-tic re-la-tions be-tween words in a
+ []
+
+(./introduction.tex <fig/baseline-choices.png, id=1, 256.96pt x 159.59625pt>
+File: fig/baseline-choices.png Graphic file (type png)
+
+<use fig/baseline-choices.png>
+Overfull \hbox (2.0pt too wide) in paragraph at lines 6--7
+ [][] 
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 8.
+<fig/words-choices.png, id=2, 317.185pt x 227.85126pt>
+File: fig/words-choices.png Graphic file (type png)
+
+<use fig/words-choices.png>
+Overfull \hbox (2.0pt too wide) in paragraph at lines 12--13
+ [][] 
+ []
+
+<fig/task.png, id=3, 1127.21124pt x 628.3475pt>
+File: fig/task.png Graphic file (type png)
+ <use fig/task.png>
+Overfull \hbox (2.0pt too wide) in paragraph at lines 19--20
+ [][] 
+ []
+
+[1{/usr/local/texlive/2010/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+
+]
+Underfull \hbox (badness 2005) in paragraph at lines 39--40
+[]\OT1/ptm/m/n/10.95 The suc-cess of auto-suggest de-pends upon
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 1009) in paragraph at lines 41--42
+\OT1/ptm/m/n/10.95 show-ing con-tex-tu-al-ized us-age ex-am-ples would
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2 <./fig/baseline-choices.png (PNG copy)> <./fig/words-choices.png (PNG copy)
+> <./fig/task.png (PNG copy)>]) (./experiment1.tex
+Underfull \hbox (badness 4441) in paragraph at lines 5--6
+[]\OT1/ptm/m/n/10.95 Grammatical re-la-tions are iden-ti-fied
+ []
+
+
+Underfull \hbox (badness 3291) in paragraph at lines 5--6
+\OT1/ptm/m/n/10.95 am-ples of con-tex-tu-al-iz-ing words or
+ []
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 10.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 53.
+[3] <fig/results.pdf, id=21, 751.80875pt x 487.8225pt>
+File: fig/results.pdf Graphic file (type pdf)
+ <use fig/results.pdf>
+Underfull \hbox (badness 1442) in paragraph at lines 94--95
+\OT1/ptm/m/n/10.95 (\OT1/ptm/b/n/10.95 phrases \OT1/ptm/m/n/10.95 and \OT1/ptm/
+b/n/10.95 words\OT1/ptm/m/n/10.95 ) were sig-nif-i-cantly more
+ []
+
+
+Underfull \hbox (badness 1248) in paragraph at lines 94--95
+\OT1/ptm/m/n/10.95 ac-cu-rate at iden-ti-fy-ing the re-la-tions than par-
+ []
+
+
+Underfull \hbox (badness 1057) in paragraph at lines 97--99
+\OT1/ptm/m/n/10.95 W=4399.0), which was in-dis-tin-guish-able from
+ []
+
+) (./discussion.tex <fig/phrases-mockup.pdf, id=22, 185.69376pt x 195.73125pt>
+File: fig/phrases-mockup.pdf Graphic file (type pdf)
+
+<use fig/phrases-mockup.pdf> [4 <./fig/results.pdf>]) (./chi14grammatical.bbl
+Underfull \hbox (badness 6575) in paragraph at lines 25--29
+[]\OT1/ptm/m/n/10 Marie-Catherine De Marn-effe, Bill Mac-Cart-ney,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--49
+[]\OT1/ptm/m/n/10 Lynette Hirschman, Alexan-der Yeh, Chris-tian
+ []
+
+
+Underfull \hbox (badness 3758) in paragraph at lines 44--49
+\OT1/ptm/m/n/10 ex-trac-tion for bi-ol-ogy.  \OT1/ptm/m/it/10 BMC bioin-for-mat
+-ics\OT1/ptm/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 1275) in paragraph at lines 85--90
+\OT1/ptm/m/n/10 crowdsourcing-based ap-proach.  \OT1/ptm/m/it/10 Jour-nal of th
+e
+ []
+
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+
+Underfull \hbox (badness 1688) in paragraph at lines 118--124
+[]\OT1/ptm/m/n/10 Jan-Philipp Soehn, Heike Zins-meis-ter, and Georg
+ []
+
+) [5 <./fig/phrases-mockup.pdf>] (./chi14grammatical.aux) ) 
+Here is how much of TeX's memory you used:
+ 2611 strings out of 493747
+ 41080 string characters out of 3143546
+ 97054 words of memory out of 3000000
+ 5850 multiletter control sequences out of 15000+200000
+ 27667 words of font info for 59 fonts, out of 3000000 for 9000
+ 714 hyphenation exceptions out of 8191
+ 37i,10n,38p,1256b,514s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/local/texlive/
+2010/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2010/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2010/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2010/texmf-dist/font
+s/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2010/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2010/texmf-dist/fonts/t
+ype1/urw/courier/ucrr8a.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/urw
+/times/utmb8a.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/urw/times/utm
+bi8a.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><
+/usr/local/texlive/2010/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on chi14grammatical.pdf (5 pages, 387726 bytes).
+PDF statistics:
+ 125 PDF objects out of 1000 (max. 8388607)
+ 85 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+
