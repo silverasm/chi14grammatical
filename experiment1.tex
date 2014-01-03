@@ -24,6 +24,12 @@
 \caption{\label{fig:choices} The appearance of the choices shown in the three experiment conditions.}
 \end{figure*}
 
+
+We gave participants a series of identification tasks. In each task, they were shown a list of sentences containing a particular syntactic relationship between highlighted words. They were asked to identify the relationship type from a list of four options. We presented the options in three different ways, and compared the accuracy.
+
+We chose Amazon's Mechanical Turk (MTurk) crowdsourcing platform as a source of study participants. The wide range of backgrounds provided by MTurk is desirable because our goal is to find a representation that is understandable to most people, not just linguistic experts or programmers.  This platform has become widely used for both obtaining language judgements and for usability studies \cite{kittur2008crowdsourcing,snow2008cheap}.
+
+
 Our hypothesis was:
 \begin{quote}
 	Grammatical relations are identified more accurately when shown with examples of contextualizing words or phrases than without.
@@ -36,9 +42,9 @@ The choices were displayed in 3 different ways (Figure \ref{fig:choices}).  The 
 
 The \strong{words} presentation showed the baseline design, and in addition beneath was the word ``Examples:'' followed by a list of 4 example words that could fill in the pink blank slot (Figure \ref{fig:words-choices}).   The \strong{phrases} presentation again showed the baseline design, beneath which was the phrase ``Patterns like:'' and a list of 4 example phrases in which fragments of text including both the pink and the yellow highlighted portions of the  relationship appeared (Figure \ref{fig:task}).
 
-We used a between-subjects design. The task order and the choice order were not varied: the only variation between participants was the presentation of the choices. To avoid the possibility of  guessing the right answer by pattern-matching, we ensured that there was no overlap between the list of sentences shown, and the examples shown in the choices as words or phrases.
+{\bf Method:} We used a between-subjects design. The task order and the choice order were not varied: the only variation between participants was the presentation of the choices. To avoid the possibility of  guessing the right answer by pattern-matching, we ensured that there was no overlap between the list of sentences shown, and the examples shown in the choices as words or phrases.
 
-The tasks were generated using the Stanford Dependency Parser \cite{de2006generating} on the text of \emph{Moby Dick} by Herman Melville. We tested the 12 most common grammatical relationships in the novel in order to cover the most content and to be able to provide as many real examples as possible. These relationships fell into two categories, listed below with examples.
+{\bf Tasks:} The tasks were generated using the Stanford Dependency Parser \cite{de2006generating} on the text of \emph{Moby Dick} by Herman Melville. We tested the 12 most common grammatical relationships in the novel in order to cover the most content and to be able to provide as many real examples as possible. These relationships fell into two categories, listed below with examples.
 
 %Clausal or long-distance relations:
 % \begin{tabular}{lll}
@@ -104,19 +110,19 @@ We tested each of these 12 relations with 4 different focus words, 2 in each rol
 
 To maximize coverage, yet keep the total task time reasonable (average 6.8 minutes), we divided the relations above into 4 task sets, each testing recognition of 3 different relations. Each of relations was tested with 4 different words, making a total of 12 tasks per participant.
 
-\subsection{Participants}
-400 participants completed the study distributed randomly over the 4 task sets and the 3 presentations. Participants were paid 50c (U.S.) for completing the study, with an additional 50c bonus if they correctly identified 10 or more of the 12 relationships. They were informed of the possibility of the bonus before starting.
+{\bf Participants:} 400 participants completed the study distributed randomly over the 4 task sets and the 3 presentations. Participants were paid 50c (U.S.) for completing the study, with an additional 50c bonus if they correctly identified 10 or more of the 12 relationships. They were informed of the possibility of the bonus before starting.
 
- To gauge their syntactic familiarity, we also asked them to rate how familiar they were with the terms `adjective' (88\% claimed they could define it), `infinitive' (43\%), and `clausal complement' (18\%). To help ensure the quality of effort from participants, we included a multiple-choice screening question, ``What is the third word of this sentence?"  Those that answered incorrectly were eliminated.
+ To gauge their syntactic familiarity, we also asked them to rate how familiar they were with the terms `adjective' (88\% claimed they could define it), `infinitive' (43\%), and `clausal complement' (18\%). To help ensure the quality of effort, we included a multiple-choice screening question, ``What is the third word of this sentence?"  Those that answered incorrectly were eliminated.
 
-\subsection{Results}
+
+
 \begin{figure}
 \centering
 \includegraphics[width=\columnwidth]{fig/results}
 \caption{\label{fig:results} Recognition rates for different types of relations under the 3 experiment conditions, with 95\% confidence intervals.}
 \end{figure}
 
-The results (Figure \ref{fig:results}) confirm our hypothesis. Participants in conditions that showed examples (\strong{phrases} and \strong{words}) were significantly more accurate at identifying the relations than participants in the \strong{baseline} condition. We used the Wilcoxson signed-rank test, an alternative to the standard T-test that does not assume samples are normally distributed. The average success rate in the \strong{baseline} condition was 41\%, which is significantly less accurate than \strong{words}: 52\%, (p=0.00019, W=6136), and \strong{phrases}: 55\%, (p=0.00014, W=5546.5).
+{\bf Results:} The results (Figure \ref{fig:results}) confirm our hypothesis. Participants in conditions that showed examples (\strong{phrases} and \strong{words}) were significantly more accurate at identifying the relations than participants in the \strong{baseline} condition. We used the Wilcoxson signed-rank test, an alternative to the standard T-test that does not assume samples are normally distributed. The average success rate in the \strong{baseline} condition was 41\%, which is significantly less accurate than \strong{words}: 52\%, (p=0.00019, W=6136), and \strong{phrases}: 55\%, (p=0.00014, W=5546.5).
 
 Clausal relations operate over longer distances in sentences, and so it is to be expected that showing longer stretches of context would perform better in these cases; that is indeed what the results showed.
 Phrases significantly outperformed words and baseline for clausal relations. The average success rate was 48\% for \strong{phrases}, which is significantly more than \strong{words}: 38\%, (p=0.017 W=6976.5) and \strong{baseline}: 24\%, (p=1.9$\times 10^{-9}$ W=4399.0), which was indistinguishable from random guessing (25\%). This is a  strong improvement, given that only 18\% of participants reported being able to define  `clausal complement'.
