@@ -46,39 +46,6 @@ The \strong{words} presentation showed the baseline design, and in addition bene
 
 {\bf Tasks:} The tasks were generated using the Stanford Dependency Parser \cite{de2006generating} on the text of \emph{Moby Dick} by Herman Melville. We tested the 12 most common grammatical relationships in the novel in order to cover the most content and to be able to provide as many real examples as possible. These relationships fell into two categories, listed below with examples.
 
-%Clausal or long-distance relations:
-% \begin{tabular}{lll}
-% \strong{advcl} & Adverbial clause & \emph{ I \textbf{walk} while \textbf{talking}}\\
-
-% \strong{xcomp} & Open clausal complement &  \emph{I \textbf{love} to \textbf{sing} }\\
-
-% \strong{ccomp} & Clausal complement &  \emph{ he \textbf{saw} us \textbf{leave}}\\
-
-% \strong{rcmod} & Relative clause modifier &  \emph{the \textbf{letter} I \textbf{wrote} reached }\\
-
-% \end{tabular}
-
-
-% Other relations:
-% \begin{table}
-% \begin{tabular}{lll}
-% \strong{nsubj} & Subject of verb & \emph{\textbf{he} \textbf{threw} the ball}\\
-
-% \strong{dobj} & Object of verb &  \emph{ he \textbf{threw} the \textbf{ball}}\\
-
-% \strong{amod} & Adjective modifier \emph{\textbf{red} \textbf{ball}}\\
-
-% \strong{prep\_in} &  Preposition (in) & \emph{a \textbf{hole} in a \textbf{bucket}}\\
-
-% \strong{prep\_of} &	Preposition (of) &  \emph{ the \textbf{piece} of \textbf{cheese}}\\
-
-% \strong{conj\_and} &  Conjunction (and)  \emph{ \textbf{mind} and \textbf{body}}\\
-
-% \strong{advmod} & Adverbial modifier & \emph{  we \textbf{walk} \textbf{slowly}}\\
-
-% \strong{nn} & Noun compound &  \emph{ \textbf{Mr.}  \textbf{Brown}}
-% \end{tabular}
-%\end{table}
 Clausal or long-distance relations:
 \squishlist
 	\item Adverbial clause: \emph{ I \textbf{walk} while \textbf{talking}}
@@ -128,4 +95,3 @@ Clausal relations operate over longer distances in sentences, and so it is to be
 Phrases significantly outperformed words and baseline for clausal relations. The average success rate was 48\% for \strong{phrases}, which is significantly more than \strong{words}: 38\%, (p=0.017 W=6976.5) and \strong{baseline}: 24\%, (p=1.9$\times 10^{-9}$ W=4399.0), which was indistinguishable from random guessing (25\%). This is a  strong improvement, given that only 18\% of participants reported being able to define  `clausal complement'.
 
 For the non-clausal relations, there was no significant difference between \strong{phrases} and \strong{words}, although they were both overall significantly better than the baseline (words: p=0.0063 W=6740, phrases: p=0.023 W=6418.5). Among these relations, adverb modifiers stood out (Figure \ref{fig:results}), because evidence suggested that \strong{words} (63\% success) made the relation more recognizable than \strong{phrases} (47\% success, p=0.056, W=574.0) -- but the difference was only almost significant, due to the smaller sample size (only 96 participants encountered this relation). This may be because the words are the most salient piece of information in an adverbial relation -- adverbs usually end in `ly' -- and in the phrases condition the additional information distracts from recognition of this pattern.
-

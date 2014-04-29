@@ -1,5 +1,20 @@
 \begin{thebibliography}{}
 
+\bibitem[\protect\citename{Androutsopoulos \bgroup et al.\egroup
+  }1995]{androutsopoulos1995natural}
+I~Androutsopoulos, GD~Ritchie, and P~Thanisch.
+\newblock 1995.
+\newblock Natural language interfaces to databases--an introduction.
+\newblock {\em Natural Language Engineering}, 1(01):29--81.
+
+\bibitem[\protect\citename{Anick and Kantamneni}2008]{anick2008longitudinal}
+Peter Anick and Raj~Gopal Kantamneni.
+\newblock 2008.
+\newblock A longitudinal study of real-time search assistance adoption.
+\newblock In {\em Proceedings of the 31st annual international ACM SIGIR
+  conference on Research and development in information retrieval}, pages
+  701--702. ACM.
+
 \bibitem[\protect\citename{Culotta and McCallum}2005]{culotta2005reducing}
 Aron Culotta and Andrew McCallum.
 \newblock 2005.
@@ -19,12 +34,6 @@ Fred Gibbs and Trevor Owens.
 \newblock Building better digital humanities tools.
 \newblock {\em DH Quarterly}, 6(2).
 
-\bibitem[\protect\citename{Hearst}2009]{hearst2009search}
-Marti Hearst.
-\newblock 2009.
-\newblock {\em Search user interfaces}.
-\newblock Cambridge University Press.
-
 \bibitem[\protect\citename{Hirschman \bgroup et al.\egroup
   }2005]{hirschman2005overview}
 Lynette Hirschman, Alexander Yeh, Christian Blaschke, and Alfonso Valencia.
@@ -32,6 +41,15 @@ Lynette Hirschman, Alexander Yeh, Christian Blaschke, and Alfonso Valencia.
 \newblock Overview of biocreative: critical assessment of information
   extraction for biology.
 \newblock {\em BMC bioinformatics}, 6(Suppl 1):S1.
+
+\bibitem[\protect\citename{Jagadish \bgroup et al.\egroup
+  }2007]{jagadish2007making}
+HV~Jagadish, Adriane Chapman, Aaron Elkiss, Magesh Jayapandian, Yunyao Li,
+  Arnab Nandi, and Cong Yu.
+\newblock 2007.
+\newblock Making database systems usable.
+\newblock In {\em Proceedings of the 2007 ACM SIGMOD international conference
+  on Management of data}, pages 13--24. ACM.
 
 \bibitem[\protect\citename{Jakubicek \bgroup et al.\egroup
   }2010]{jakubicek2010fast}
@@ -46,6 +64,20 @@ Stephan Kepser.
 \newblock Finite structure query: A tool for querying syntactically annotated
   corpora.
 \newblock In {\em EACL}, pages 179--186.
+
+\bibitem[\protect\citename{Kittur \bgroup et al.\egroup
+  }2008]{kittur2008crowdsourcing}
+Aniket Kittur, Ed~H Chi, and Bongwon Suh.
+\newblock 2008.
+\newblock Crowdsourcing user studies with mechanical turk.
+\newblock In {\em Proceedings of the SIGCHI conference on human factors in
+  computing systems}, pages 453--456. ACM.
+
+\bibitem[\protect\citename{Lai and Bird}2010]{lai2010querying}
+Catherine Lai and Steven Bird.
+\newblock 2010.
+\newblock Querying linguistic trees.
+\newblock {\em Journal of Logic, Language and Information}, 19(1):53--73.
 
 \bibitem[\protect\citename{Levy and Andrew}2006]{levy2006tregex}
 Roger Levy and Galen Andrew.
@@ -68,6 +100,48 @@ Aditi Muralidharan and Marti~A Hearst.
 \newblock Supporting exploratory text analysis in literature study.
 \newblock {\em Literary and Linguistic Computing}, 28(2):283--295.
 
+\bibitem[\protect\citename{Ogden and Brooks}1983]{ogden1983query}
+William~C Ogden and Susan~R Brooks.
+\newblock 1983.
+\newblock Query languages for the casual user: Exploring the middle ground
+  between formal and natural languages.
+\newblock In {\em Proceedings of the SIGCHI conference on Human Factors in
+  Computing Systems}, pages 161--165. ACM.
+
+\bibitem[\protect\citename{Rehm \bgroup et al.\egroup
+  }2009]{rehm2009sustainability}
+Georg Rehm, Oliver Schonefeld, Andreas Witt, Erhard Hinrichs, and Marga Reis.
+\newblock 2009.
+\newblock Sustainability of annotated resources in linguistics: A web-platform
+  for exploring, querying, and distributing linguistic corpora and other
+  resources.
+\newblock {\em Literary and Linguistic Computing}, 24(2):193--210.
+
+\bibitem[\protect\citename{Resnik \bgroup et al.\egroup }2005]{resnik2005web}
+Philip Resnik, Aaron Elkiss, Ellen Lau, and Heather Taylor.
+\newblock 2005.
+\newblock The web in theoretical linguistics research: Two case studies using
+  the linguist’s search engine.
+\newblock In {\em Proc. 31st Mtg. Berkeley Linguistics Society}, pages
+  265--276.
+
+\bibitem[\protect\citename{Shneiderman and
+  Plaisant}2010]{shneiderman2010designing}
+Ben Shneiderman and Catherine Plaisant.
+\newblock 2010.
+\newblock {\em Designing The User Interface: Strategies for Effective
+  Human-Computer Interaction, 5/e (Fifth Edition)}.
+\newblock Addison Wesley.
+
+\bibitem[\protect\citename{Snow \bgroup et al.\egroup }2008]{snow2008cheap}
+Rion Snow, Brendan O'Connor, Daniel Jurafsky, and Andrew~Y Ng.
+\newblock 2008.
+\newblock Cheap and fast---but is it good?: evaluating non-expert annotations
+  for natural language tasks.
+\newblock In {\em Proceedings of the conference on empirical methods in natural
+  language processing}, pages 254--263. Association for Computational
+  Linguistics.
+
 \bibitem[\protect\citename{Soehn \bgroup et al.\egroup
   }2008]{soehn2008requirements}
 Jan-Philipp Soehn, Heike Zinsmeister, and Georg Rehm.
@@ -76,5 +150,13 @@ Jan-Philipp Soehn, Heike Zinsmeister, and Georg Rehm.
   interface.
 \newblock {\em Sustainability of Language Resources and Tools for Natural
   Language Processing}, 6:27.
+
+\bibitem[\protect\citename{Ward \bgroup et al.\egroup
+  }2012]{ward2012autocomplete}
+David Ward, Jim Hahn, and Kirsten Feist.
+\newblock 2012.
+\newblock Autocomplete as research tool: A study on providing search
+  suggestions.
+\newblock {\em Information Technology and Libraries}, 31(4):6--19.
 
 \end{thebibliography}

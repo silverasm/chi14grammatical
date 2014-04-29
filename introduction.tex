@@ -1,51 +1,21 @@
 %!TEX root = chi14grammatical.tex
 The ability to search over grammatical relationships between words is useful in many non-scientific fields. For example, a social scientist trying to characterize different perspectives on immigration might ask how adjectives applying to `immigrant' have changed in the last 30 years. A scholar interested in gender might search a collection to find out whether different nouns enter into possessive relationships with `his' and `her' \cite{muralidharan2013supporting}. In other fields, grammatical queries can be used to develop patterns for recognizing entities in text, such as medical terms \cite{hirschman2005overview,maclean2013identifying}, and  products and organizations \cite{culotta2005reducing}, and for coding qualitative data such as survey results.
 
-Most existing interfaces for syntactic search (querying over grammatical and syntactic structures) require  programming-style syntax. For example, the popular Stanford Parser includes Tregex, which allows for sophisticated regular expression search over syntactic tree structures \cite{levy2006tregex}.
+Most existing interfaces for syntactic search (querying over grammatical and syntactic structures) require structured query syntax. For example, the popular Stanford Parser includes Tregex, which allows for sophisticated regular expression search over syntactic tree structures \cite{levy2006tregex}.
 %and Tsurgeon, which allows for manipulation of the trees extracted with Tregex
 The Finite Structure Query tool for querying syntactically annotated corpora requires its queries to be stated in first order logic \cite{kepser2003finite}. In the Corpus Query Language \cite{jakubicek2010fast}, a query is a pattern of attribute-value pairs, where values can include regular expressions containing parse tree nodes and words.
-%Several approaches have adopted XML representations and the associated query language families of XPATH and SPARQL. For example, LPath augments XPath with additional tree operators to give it further expressiveness \cite{lai2010querying}.
+Several approaches have adopted XML representations and the associated query language families of XPATH and SPARQL. For example, LPath augments XPath with additional tree operators to give it further expressiveness \cite{lai2010querying}.
 
-However, most potential users do not have programming expertise. One survey found that even though linguists wished to make very technical  linguistic queries, 55\% of them did not know how to program \cite{soehn2008requirements}. In another \cite{gibbs_building_2012}, humanities scholars and social scientists are frequently skeptical of digital tools, because they are often difficult to use. This reduces the likelihood that existing structured-query tools for syntactic search will be usable by non-programmers \cite{ogden1983query}.
+However, most potential users do not have programming expertise, and are not likely to be at ease composing rigidly-structured queries. One survey found that even though linguists wished to make very technical  linguistic queries, 55\% of them did not know how to program \cite{soehn2008requirements}. In another \cite{gibbs_building_2012}, humanities scholars and social scientists are frequently skeptical of digital tools, because they are often difficult to use. This reduces the likelihood that existing structured-query tools for syntactic search will be usable by non-programmers \cite{ogden1983query}.
 
 A related approach is the query-by-example work seen in the past in interfaces to database systems \cite{androutsopoulos1995natural}. For instance, the Linguist's Search Engine \cite{resnik2005web} uses a query-by-example strategy in which a user types in an initial sentence in English, and the system produces a graphical view of a parse tree as output, which the user can alter. 
-The user can either click on the tree or modify the LISP expression to generalize the query. 
-%SPLICR also contains a graphical tree editor tool \cite{rehm2009sustainability}. 
+The user can either click on the tree or modify the LISP expression to generalize the query. SPLICR also contains a graphical tree editor tool \cite{rehm2009sustainability}. 
 According to Shneiderman and Plaisant \cite{shneiderman2010designing}, query-by-example has largely fallen out of favor as a user interface design approach. A downside of QBE is that the user must manipulate an example to arrive at the desired generalization.
 
 More recently auto-suggest, a faster technique that does not require the manipulation of query by example, has become a widely-used approach in search user interfaces with strong support in terms of its usability \cite{anick2008longitudinal,ward2012autocomplete,jagadish2007making}. A list of selectable options is shown under the search bar, filtered to be relevant as the searcher types. Searchers can recognize and select the option that matches their information need, without having to generate the query themselves.
 
-The success of auto-suggest depends upon showing users options they can recognize. However, we know of no prior work applying auto-suggest to syntactic search. This leaves open the question of how syntactic relationships should be presented to make them recognizable.
-% The problem is that there are no common-language terms for grammatical relationships even though speakers are capable of understanding and using them. Dependency parsers use linguistic terminology to label their outputs, but those names and definitions may not accessible to those outside the field. Take the phrases ``he threw the ball" and ``the ball was thrown by him". In both cases, it is clear that `he' is is the one who `threw' whereas, in grammatical terms, the first phrase is in the active case, and the phrase is in the passive case. The Stanford Dependency Parser \cite{klein_accurate_2003}, for example, outputs two different variants of the verb-subject relation: \code{nsubj(he, threw)} and \code{nsubjpass(he, threw)}. A more user-friendly grammatical search system would have to bridge the gap between the way that relations are recognized by people and the way that relations are represented in a parse.
-One current presentation (not used with auto-suggest) is to name the relation and show blanks where the words that satisfy it would appear as in \emph{X is the subject of Y} \cite{muralidharan2013supporting}; we used this as the baseline presentation in our experiments because it employs the relation definitions found in the Stanford Dependency Parser's manual \cite{de2006generating}. Following the principle of recognition over recall, we hypothesized that showing contextualized usage examples would make the relations more recognizable.
-
-
+The success of auto-suggest depends upon showing users options they can recognize. However, we know of no prior work on how to display grammatical relations so that they can be easily recognized. One current presentation (not used with auto-suggest) is to name the relation and show blanks where the words that satisfy it would appear as in \emph{X is the subject of Y} \cite{muralidharan2013supporting}; we used this as the baseline presentation in our experiments because it employs the relation definitions found in the Stanford Dependency Parser's manual \cite{de2006generating}. Following the principle of recognition over recall, we hypothesized that showing contextualized usage examples would make the relations more recognizable.
 
 Our results confirm that showing examples in the form of words or phrases significantly improves the accuracy with which grammatical relationships are recognized over the standard baseline of showing the relation name with blanks. Our findings also showed that clausal relationships, which span longer distances in sentences, benefited significantly more from example phrases than either of the other treatments.
 
 These findings suggest that a query interface in which a user enters a word of interest and the system shows candidate grammatical relations augmented with examples from the text will be more successful than the baseline of simply naming the relation and showing gaps where the participating words appear.
-
-% Most analysts and researchers ask themselves these questions while trying to understand a subject.  So far, the field of information retrieval has tackled this problem indirectly: the analyst enters a search query, and the system returns some results. When the underlying data has structure, queries can be specific and targeted -- and there is now a substantial body of work [cite] on how best to issue structured queries over \emph{structured} data. But what if the ``data" is is text -- medical literature, legal records, interview transcripts? Although text is richly structured by rules of  grammar and narrative, it is rarely treated as such. While there is a lot of work on extracting various kinds of structured information from text, there is little on how to make it easy for users to access and query over it.  As the questions above show, however, structured queries over language can be extremely useful.
-%
-%Adapting existing structured-query interfaces to grammatical search is problematic for several reasons. The first is that the structures in language are not explicit, like columns in a table, but are implicit, and have to be extracted computationally. Only in the last decade have computational linguistic technologies become fast and accu rate enough to use in the real world.
-%
-%The second problem is the lack of programming experience among searchers. Current structured query languages like SPARQL have complex syntaxes that require time and effort to learn. For example, here is a SPARQL query for ``What are all the country capitals in Africa?'':
-%\begin{verbatim}
-%SELECT ?capital ?country
-%WHERE {
-%  ?x cityname ?capital ;
-%     isCapitalOf ?y .
-%  ?y countryname ?country ;
-%     isInContinent Africa .
-%}
-%\end{verbatim}
-%Even if we assume that only professional analysts engaging in information-intensive work would want to issue such targeted queries,  programming experience is scarce. One study on a query language for selecting phrase structures from sentences found that that only 50\% of the people who wanted to use it had programming experience \cite{}.
-%
-%The third
-
-%For keyword searches and (increasingly) natural language queries, web search engines are effective, but there still no intuitive interfaces for   syntactically structured queries such as \emph{ find all adjectives that modify ``clothes"}.
-
-
-%In a follow-up experiment, we found that if distinctive or closed-class words tend to participate in a grammatical relationship, then a list of matching words is the best recognition aid. By contrast, in clausal or long-distance relationships, where the context determines how the two words are related, a list of phrases is best.
-
-%The rest of this paper is structured as follows. In the next section, we summarize the previous work on issuing structured queries over linguistic information extracted from text data. Then, we  describe our experiments and analyze the results. Finally, we summarize our findings and discuss their implications for grammatical search interfaces.
