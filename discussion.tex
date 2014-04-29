@@ -1,9 +1,9 @@
-%!TEX root = chi14grammatical.tex
+%!TEX root = acl14grammatical.tex
 
 
-The results imply that user interfaces for syntactic search should show candidate relationships augmented with a list of phrases in which they occur. A list of phrases is the most recognizable presentation for clausal relationships (34\% better than the baseline), and is as good as a list of words for the other types of relations.
+The results imply that user interfaces for syntactic search should show candidate relationships augmented with a list of phrases in which they occur. A list of phrases is the most recognizable presentation for clausal relationships (34\% better than the baseline), and is as good as a list of words for the other types of relations, except adverb modifiers. For adverb modifiers, the list of words is the most recognizable presentation. This is likely because Enlglish adverbs usually end in `-ly' are therefore a distinctive set of words.
 
-The list of candidates can be ordered by frequency of occurrence in the collection, or by an interestingness measure given the search word.  As the user becomes more familiar with a given relation, it may  be expedient to shorten the cues shown, and then re-introduce them if a relation has not been selected after some period of time as elapsed. If phrases are used, there is a tradeoff between recognizability and the space required to display the examples of usage. However, it is important to keep in mind that because the suggestions are populated with items from the collection itself, they are informative.
+The list of candidates can be ordered by frequency of occurrence in the collection, or by an interestingness measure given the search word.  As the user becomes more familiar with a given relation, it may  be expedient to shorten the cues shown, and then re-introduce them if a relation has not been selected after some period of time has elapsed. If phrases are used, there is a tradeoff between recognizability and the space required to display the examples of usage. However, it is important to keep in mind that because the suggestions are populated with items from the collection itself, they are informative.
 
 % A mockup of such a search interface is shown in Figure \ref{fig:phrases-mockup}.  Selecting a choice from the menu will return all sentences that contain the search term and match the relation.
 % \begin{figure}

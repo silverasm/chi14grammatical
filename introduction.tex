@@ -1,4 +1,5 @@
-%!TEX root = chi14grammatical.tex
+%!TEX root = acl14grammatical.tex
+
 The ability to search over grammatical relationships between words is useful in many non-scientific fields. For example, a social scientist trying to characterize different perspectives on immigration might ask how adjectives applying to `immigrant' have changed in the last 30 years. A scholar interested in gender might search a collection to find out whether different nouns enter into possessive relationships with `his' and `her' \cite{muralidharan2013supporting}. In other fields, grammatical queries can be used to develop patterns for recognizing entities in text, such as medical terms \cite{hirschman2005overview,maclean2013identifying}, and  products and organizations \cite{culotta2005reducing}, and for coding qualitative data such as survey results.
 
 Most existing interfaces for syntactic search (querying over grammatical and syntactic structures) require structured query syntax. For example, the popular Stanford Parser includes Tregex, which allows for sophisticated regular expression search over syntactic tree structures \cite{levy2006tregex}.
@@ -10,7 +11,7 @@ However, most potential users do not have programming expertise, and are not lik
 
 A related approach is the query-by-example work seen in the past in interfaces to database systems \cite{androutsopoulos1995natural}. For instance, the Linguist's Search Engine \cite{resnik2005web} uses a query-by-example strategy in which a user types in an initial sentence in English, and the system produces a graphical view of a parse tree as output, which the user can alter. 
 The user can either click on the tree or modify the LISP expression to generalize the query. SPLICR also contains a graphical tree editor tool \cite{rehm2009sustainability}. 
-According to Shneiderman and Plaisant \cite{shneiderman2010designing}, query-by-example has largely fallen out of favor as a user interface design approach. A downside of QBE is that the user must manipulate an example to arrive at the desired generalization.
+According to Shneiderman and Plaisant \shortcite{shneiderman2010designing}, query-by-example has largely fallen out of favor as a user interface design approach. A downside of QBE is that the user must manipulate an example to arrive at the desired generalization.
 
 More recently auto-suggest, a faster technique that does not require the manipulation of query by example, has become a widely-used approach in search user interfaces with strong support in terms of its usability \cite{anick2008longitudinal,ward2012autocomplete,jagadish2007making}. A list of selectable options is shown under the search bar, filtered to be relevant as the searcher types. Searchers can recognize and select the option that matches their information need, without having to generate the query themselves.
 
